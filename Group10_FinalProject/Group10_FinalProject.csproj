@@ -67,9 +67,41 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Dafault.aspx" />
+    <Content Include="Easy.aspx" />
+    <Content Include="Hard.aspx" />
+    <Content Include="Medium.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dafault.aspx.cs">
+      <DependentUpon>Dafault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dafault.aspx.designer.cs">
+      <DependentUpon>Dafault.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Easy.aspx.cs">
+      <DependentUpon>Easy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Easy.aspx.designer.cs">
+      <DependentUpon>Easy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hard.aspx.cs">
+      <DependentUpon>Hard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hard.aspx.designer.cs">
+      <DependentUpon>Hard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Medium.aspx.cs">
+      <DependentUpon>Medium.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Medium.aspx.designer.cs">
+      <DependentUpon>Medium.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
