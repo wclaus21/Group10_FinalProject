@@ -9,6 +9,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Button ID="cmdEasy" runat="server" Text="Easy" OnCLick="cmdEasy_Click"/>
+            <asp:Button ID="cmdMedium" runat="server" Text="Medium" OnClick="cmdMedium_Click"/>
+            <asp:Button ID="cmdHard" runat="server" Text="Hard" OnClick="cmdHard_Click"/>
         </div>
     </form>
 </body>

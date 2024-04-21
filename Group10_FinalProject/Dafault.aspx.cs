@@ -18,5 +18,15 @@ namespace Group10_FinalProject
         {
 
         }
+
+        protected void cmdMedium_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void cmdHard_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Hard.aspx");
+        }
     }
 }
