@@ -6,76 +6,30 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 
 namespace Group10_FinalProject
-{
+{ 
     public partial class Easy : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        { } }
-            
-
-namespace group5_FinalProject
-    {
-        public class LeetCode224Solution
         {
-            public int Calculate(string s)
+
+        }
+        protected void cmbAdding_Button(object sender, EventArgs e) 
+        {
+            int Sum(int num1, int num2)
             {
-                Stack<int> stack = new Stack<int>();
-                int currentNumber = 0;
-                int result = 0; // For the current result
-                int sign = 1;  // 1 means positive, -1 means negative  
+                int total = num1 + num2;
+                return total;
+            }
+            int twoNumbers = Sum(12, 5);
+            lblSum.Text = Convert.ToString (twoNumbers);
+        }
 
-                for (int i = 0; i < s.Length; i++)
-                {
-                    char currentChar = s[i];
+        protected void btnAdd_Click(object sender, EventArgs e)
+        {
+            int twoSum(int num1, int num2)
+            {
 
-                    if (Char.IsDigit(currentChar))
-                    {
-                        // Parse the whole number
-                        currentNumber = (currentChar - '0');
-
-                        while (i + 1 < s.Length && Char.IsDigit(s[i + 1]))
-                        {
-                            currentNumber = currentNumber * 10 + (s[i + 1] - '0');
-                            i++;
-                        }
-
-                        currentNumber *= sign;
-                        result += currentNumber;
-                        currentNumber = 0; // reset number to 0 before next potential number
-                        sign = 1; // reset sign to positive
-                    }
-                    else if (currentChar == '+')
-                    {
-                        sign = 1;
-                    }
-                    else if (currentChar == '-')
-                    {
-                        sign = -1;
-                    }
-                    else if (currentChar == '(')
-                    {
-                        // Push the result and the sign onto the stack, for later
-                        // We push the result first, then the sign
-                        stack.Push(result);
-                        stack.Push(sign);
-
-                        // Reset the sign and result for the new subexpression
-                        sign = 1;
-                        result = 0;
-                    }
-                    else if (currentChar == ')')
-                    {
-                        // Pop the sign and the temporary result from the stack
-                        // Multiply the current result by the sign on the top of the stack
-                        // Then add to the next top, which is the temporary result before this pair of parentheses
-                        result *= stack.Pop(); // stack.pop() is the sign before the parenthesis
-                        result += stack.Pop(); // stack.pop() is the result calculated before the parenthesis
-                    }
-                }
-
-                return result;
             }
         }
     }
 }
-    

@@ -15,9 +15,9 @@
 <body>
     <form id="form1" runat="server">
         <div style="text-align: center">
-            <asp:Label ID="lblTitle" runat="server" Text="Medium: Problem 012" Font-Bold="True" Font-Size="36"></asp:Label>
+            <asp:Label ID="lblTitle" runat="server" Text="Medium: Problem 1" Font-Bold="True" Font-Size="36"></asp:Label>
             <br />
-            <asp:Label ID="lblProblem" runat="server" Text="Integer to Roman Numeral" Font-Size="30"></asp:Label>
+            <asp:Label ID="lblProblem" runat="server" Text="Two Sum" Font-Size="30"></asp:Label>
             <br />
             <br />
             <asp:Label ID="lblNum" runat="server" Text="Enter Your Integer: " Font-Size="24"></asp:Label>
