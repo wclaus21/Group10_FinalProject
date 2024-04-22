@@ -81,6 +81,7 @@
     <Compile Include="Dafault.aspx.designer.cs">
       <DependentUpon>Dafault.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Default.cs" />
     <Compile Include="Easy.aspx.cs">
       <DependentUpon>Easy.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
