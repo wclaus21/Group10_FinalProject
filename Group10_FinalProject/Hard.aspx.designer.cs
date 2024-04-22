@@ -42,6 +42,24 @@ namespace Group10_FinalProject
         protected global::System.Web.UI.WebControls.Label lblProblem;
 
         /// <summary>
+        /// lblDescrip control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblDescrip;
+
+        /// <summary>
+        /// LblExample control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblExample;
+
+        /// <summary>
         /// lblNum control.
         /// </summary>
         /// <remarks>
@@ -69,12 +87,12 @@ namespace Group10_FinalProject
         protected global::System.Web.UI.WebControls.Button btnEnter;
 
         /// <summary>
-        /// lblResult control.
+        /// lblSolution control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblResult;
+        protected global::System.Web.UI.WebControls.Label lblSolution;
     }
 }
