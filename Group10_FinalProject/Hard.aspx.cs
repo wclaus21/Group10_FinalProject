@@ -16,10 +16,7 @@ namespace Group10_FinalProject
 
         protected void btnSolve_Click(object sender, EventArgs e)
         {
-            if (IsPostBack) 
-            { 
-                
-            }
+            
         }
 
     }

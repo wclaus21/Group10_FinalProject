@@ -18,7 +18,7 @@
             <asp:TextBox ID="num" runat="server" Font-Size="24" Width="60" BackColor="LightYellow"></asp:TextBox>
             <br />
             <br />
-            <asp:Button ID="btnEnter" runat="server" Text="Enter" OnClick="Hard.aspx.cs" Font-Size="30" />
+            <asp:Button ID="btnEnter" runat="server" Text="Enter" OnClick="btnSolve_Click" Font-Size="30" />
             <br />
             <br />
             <asp:Label ID="lblResult" runat="server" Text="" Font-Size="36" ForeColor="red"></asp:Label>
