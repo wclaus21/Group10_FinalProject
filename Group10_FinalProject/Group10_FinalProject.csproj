@@ -95,7 +95,6 @@
     <Compile Include="Hard.aspx.designer.cs">
       <DependentUpon>Hard.aspx</DependentUpon>
     </Compile>
-    <Compile Include="LeetCodeProblem37.cs" />
     <Compile Include="Medium.aspx.cs">
       <DependentUpon>Medium.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

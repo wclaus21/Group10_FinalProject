@@ -16,12 +16,12 @@ namespace Group10_FinalProject
 
         protected void cmdEasy_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Easy.aspx");
         }
 
         protected void cmdMedium_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Medium.aspx");
         }
 
         protected void cmdHard_Click(object sender, EventArgs e)
