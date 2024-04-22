@@ -23,13 +23,5 @@ namespace Group10_FinalProject
             int twoNumbers = Sum(12, 5);
             lblSum.Text = Convert.ToString (twoNumbers);
         }
-
-        protected void btnAdd_Click(object sender, EventArgs e)
-        {
-            int twoSum(int num1, int num2)
-            {
-
-            }
-        }
     }
 }
